@@ -32,22 +32,22 @@ var Datepicker = (function() {
   // Methods
 
   function init($this) {
-    var options = {
+    /*var options = {
       disableTouchKeyboard: true,
       autoclose: false
     };
 
-    $this.datepicker(options);
+    $this.datepicker(options); */
   }
 
 
   // Events
 
-  if ($datepicker.length) {
+  /*if ($datepicker.length) {
     $datepicker.each(function() {
       init($(this));
     });
-  }
+  }*/
 
 })();
 
@@ -139,7 +139,7 @@ var $map = $('#map-canvas'),
 
 function initMap() {
 
-  map = document.getElementById('map-canvas');
+  /*map = document.getElementById('map-canvas');
   lat = map.getAttribute('data-lat');
   lng = map.getAttribute('data-lng');
 
@@ -222,11 +222,11 @@ function initMap() {
 
   google.maps.event.addListener(marker, 'click', function() {
     infowindow.open(map, marker);
-  });
+  });*/
 }
 
 if ($map.length) {
-  google.maps.event.addDomListener(window, 'load', initMap);
+  //google.maps.event.addDomListener(window, 'load', initMap);
 }
 
 // //
