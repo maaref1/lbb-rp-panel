@@ -37,7 +37,7 @@
     "chartist": "0.11.2",
     "core-js": "3.1.4",
     "cors": "2.8.5",
-    "express": "4.17.1",
+    "express": "4.17.3",
     "jquery": "3.4.1",
     "moment": "2.24.0",
     "mysql": "2.17.1",
